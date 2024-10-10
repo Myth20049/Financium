@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# **MoneyTrail**  
+*A MERN Stack Expense Tracker Application*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Overview**  
+**MoneyTrail** is a powerful and intuitive expense tracker application built with the MERN stack (MongoDB, Express, React, Node.js). This app allows users to log and manage their daily expenses by adding transaction details such as the amount, description, and date. MoneyTrail calculates your current balance in real-time based on your inputs, making it easy to monitor your spending habits.
 
-## Available Scripts
+## **Features**
+- **Add New Transactions:** Input transaction details like the item, amount, date, and a brief description.
+- **Real-time Balance Update:** The app dynamically calculates and displays the balance based on all transactions.
+- **Data Persistence:** All transactions are stored in a MongoDB database, ensuring data persistence across sessions.
+- **RESTful API:** The backend API provides endpoints to create, retrieve, and manage transactions.
+- **Responsive Design:** The app is built with React.js and styled to be responsive, working seamlessly on any device.
 
-In the project directory, you can run:
+## **Technologies Used**
+- **Frontend:** React.js
+- **Backend:** Express.js, Node.js
+- **Database:** MongoDB
+- **API:** RESTful API with Express
+- **Styling:** CSS (custom)
 
-### `npm start`
+## **Getting Started**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Prerequisites**
+To run this project, you'll need to have the following installed on your machine:
+- **Node.js** (v12 or higher)
+- **MongoDB** (local or cloud setup like MongoDB Atlas)
+- **Git** (to clone the repository)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Installation Steps**
 
-### `npm test`
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/moneytrail.git
+   cd moneytrail
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies:**
+   Navigate to the project's root folder and install both frontend and backend dependencies:
 
-### `npm run build`
+   ```bash
+   # Install server dependencies
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   # Navigate to the client directory (if the frontend is in a subfolder)
+   cd client
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Set up environment variables:**
+   Create a `.env` file in the root directory and add your MongoDB URI and API configuration:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   MONGO_URL=your_mongodb_connection_string
+   REACT_APP_API_URL=http://localhost:4040/api
 
-### `npm run eject`
+4. **Start the backend server:**
+   In the root directory, run the following command to start the Express server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm run server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Start the React frontend:**
+   In a separate terminal window, navigate to the `client` directory and run the following command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. **Open the application:**
+   The app should now be running on `http://localhost:3000` for the frontend and `http://localhost:4040` for the API server.
