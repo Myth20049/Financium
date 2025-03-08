@@ -30,8 +30,8 @@ To run this project, you'll need to have the following installed on your machine
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Financium.git
-   cd Financium
+   git clone https://github.com/yourusername/MoneyTrail.git
+   cd MoneyTrail
 
 2. **Install dependencies:**
    Navigate to the project's root folder and install both frontend and backend dependencies:
