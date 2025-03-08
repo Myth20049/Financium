@@ -1,4 +1,4 @@
-# **MoneyTrail**  
+# **Financium**  
 *A MERN Stack Expense Tracker Application*
 
 ## **Overview**  
