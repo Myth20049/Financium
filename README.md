@@ -30,7 +30,7 @@ To run this project, you'll need to have the following installed on your machine
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Financium.git
+   git clone https://github.com/Myth20049/Financium.git
    cd Financium
 
 2. **Install dependencies:**
