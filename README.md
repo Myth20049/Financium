@@ -2,7 +2,7 @@
 *A MERN Stack Expense Tracker Application*
 
 ## **Overview**  
-**MoneyTrail** is a powerful and intuitive expense tracker application built with the MERN stack (MongoDB, Express, React, Node.js). This app allows users to log and manage their daily expenses by adding transaction details such as the amount, description, and date. MoneyTrail calculates your current balance in real-time based on your inputs, making it easy to monitor your spending habits.
+**Financium** is a powerful and intuitive expense tracker application built with the MERN stack (MongoDB, Express, React, Node.js). This app allows users to log and manage their daily expenses by adding transaction details such as the amount, description, and date. Financium calculates your current balance in real-time based on your inputs, making it easy to monitor your spending habits.
 
 ## **Features**
 - **Add New Transactions:** Input transaction details like the item, amount, date, and a brief description.
@@ -30,8 +30,8 @@ To run this project, you'll need to have the following installed on your machine
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/moneytrail.git
-   cd moneytrail
+   git clone https://github.com/yourusername/Financium.git
+   cd Financium
 
 2. **Install dependencies:**
    Navigate to the project's root folder and install both frontend and backend dependencies:
